@@ -1,0 +1,18 @@
+[project]
+name = "redpacketscript"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Allen Chen",email = ""},
+    {name = "PAPER SUS",email = "zhaowenrui_8866@163.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp (>=3.11.11,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
